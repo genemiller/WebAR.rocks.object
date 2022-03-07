@@ -5,7 +5,7 @@
  *   - Nominative commercial license
  * Please read https://github.com/WebAR-rocks/WebAR.rocks.object/blob/master/LICENSE
  * 
-*/var JEEARAPI=(function(){/*
+*/var WEBARROCKSOBJECT=(function(){/*
  SharedContext.is_webgl2() &&*/
 function $a(){this.wa=!1;this.ea=null;this.Xc=void 0;this.ba=1;this.oc=this.gd=0;this.ra=null}function ib(H){if(H.wa)throw new TypeError("Generator is already running");H.wa=!0}$a.prototype.ya=function(H){this.Xc=H};$a.prototype.Da=function(H){this.ra={td:H,Md:!0};this.ba=this.gd||this.oc};$a.prototype.return=function(H){this.ra={return:H};this.ba=this.oc};function jb(H){this.s=new $a;this.be=H}
 jb.prototype.ya=function(H){ib(this.s);if(this.s.ea)return pb(this,this.s.ea.next,H,this.s.ya);this.s.ya(H);return qb(this)};function Ab(H,ba){ib(H.s);var ra=H.s.ea;if(ra)return pb(H,"return"in ra?ra["return"]:function(wa){return{value:wa,done:!0}},ba,H.s.return);H.s.return(ba);return qb(H)}jb.prototype.Da=function(H){ib(this.s);if(this.s.ea)return pb(this,this.s.ea["throw"],H,this.s.ya);this.s.Da(H);return qb(this)};
